@@ -86,6 +86,8 @@ sections:
         location: Turku, Finland
         start: 2022
         end: 2023
+        bullets:
+          - "Thesis: *Analysis of the purchase invoice data of the City of Turku*"
       - title: Master of Science (Technology), Biotechnology
         short: MSc (Tech), Biotechnology
         org: University of Turku

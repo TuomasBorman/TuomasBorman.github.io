@@ -48,6 +48,12 @@ publications:
   # Theses (category G)
   - category: G
     authors: [Tuomas Borman]
+    title: "Turun kaupungin ostolaskuaineiston analyysi [Analysis of the purchase invoice data of the City of Turku]"
+    venue: "Master's thesis (MSc Econ, Accounting and Finance), Turku School of Economics, University of Turku"
+    year: 2023
+
+  - category: G
+    authors: [Tuomas Borman]
     title: "Microbiome data science workflow with an application to appendicitis"
     venue: "Master's thesis (MSc Tech, Biotechnology), University of Turku"
     year: 2022
