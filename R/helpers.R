@@ -10,12 +10,15 @@ pdf_fill <- "`#h(1em)#h(1fr)`{=typst}"
 
 heading <- function(text, level = 2) cat(strrep("#", level), " ", text, "\n\n", sep = "")
 
+# Icons: the web pages use Bootstrap icons; the PDFs use the logos in assets/
 icon <- function(name) {
-    if (name == "orcid") {
-        if (is_pdf()) return('`#box(baseline: 15%, image("assets/orcid.svg", height: 0.9em))`{=typst}')
-        return('<img src="assets/orcid.svg" class="orcid-icon" alt="ORCID">')
+    logo <- sprintf("assets/%s.svg", name)
+    if (is_pdf()) {
+        if (!file.exists(logo)) return("")
+        return(sprintf('`#box(baseline: 15%%, image("%s", height: 0.9em))`{=typst}', logo))
     }
-    if (is_pdf()) "" else sprintf('<i class="bi bi-%s"></i>', name)
+    if (name == "orcid") return('<img src="assets/orcid.svg" class="orcid-icon" alt="ORCID">')
+    sprintf('<i class="bi bi-%s"></i>', name)
 }
 
 # ---- Dates ------------------------------------------------------------------
@@ -92,11 +95,14 @@ cv_header <- function(cv) {
 cv_entry <- function(e) {
     period <- fmt_range(e$start, e$end, day = FALSE)
     org <- paste(c(e$org, e$location), collapse = ", ")
+    # In the PDF, keep each entry on one page
+    if (is_pdf()) cat("```{=typst}\n#block(breakable: false, below: 1em)[\n```\n\n")
     cat("::: {.cv-entry}\n")
     cat(sprintf("[**%s**]{.cv-title} %s [%s]{.cv-date}\n\n", e$title, pdf_fill, period))
     if (length(org)) cat(sprintf("[%s]{.cv-org}\n\n", org))
     if (length(e$bullets)) cat(paste("-", unlist(e$bullets)), sep = "\n")
     cat("\n:::\n\n")
+    if (is_pdf()) cat("```{=typst}\n]\n```\n\n")
 }
 
 cv_sections <- function(cv, level = 2) {

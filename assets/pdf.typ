@@ -1,5 +1,7 @@
 #set text(size: 10pt)
-#show heading: it => block(above: 1.4em, below: .7em)[
+#set par(spacing: 0.75em)
+#set list(spacing: 0.5em)
+#show heading: it => block(above: 1.2em, below: .6em)[
   #set text(fill: rgb("#2a6f97"), weight: "bold", size: 11pt)
   #upper(it.body)
   #v(-.6em)
