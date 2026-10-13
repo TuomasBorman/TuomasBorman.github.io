@@ -29,12 +29,14 @@ See [past workshops and courses](presentations.qmd).
 I have a master's degree in economics and business administration (accounting and
 finance), so I understand both the data and the business side.
 
+::: {.case}
 ## Example project
 
 For a customer that specialises in purchase analytics, I developed Python software.
 It fetches purchase data, curates it automatically and stores it in a database. It then
 analyses and visualises the data. The goal was to see where the money flows and what
 organisations spend it on.
+:::
 
 ## Contact
 

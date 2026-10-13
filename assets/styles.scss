@@ -64,6 +64,16 @@ h2 { @include section-heading; margin-top: 2.4rem; margin-bottom: 1rem; }
 .stat-label { font-size: .85rem; opacity: $muted; }
 .orcid-icon { height: 1em; vertical-align: -.125em; }
 
+/* Highlighted example, e.g. the customer case on the Services page */
+.case {
+  background: rgba($primary, .06);
+  border-radius: .75rem;
+  padding: 1.4rem 1.6rem;
+  margin: 2.4rem 0;
+}
+.case h2 { margin-top: 0; }
+.case p:last-child { margin-bottom: 0; }
+
 /* About page */
 .about-entity .about-image { border-radius: 50% !important; }
 .lead-text { font-size: 1.25rem; font-weight: 500; }
