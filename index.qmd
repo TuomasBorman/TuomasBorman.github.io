@@ -1,0 +1,73 @@
+---
+title: "Tuomas Borman"
+subtitle: "Open-source developer in bioinformatics"
+image: assets/portrait.jpg
+page-layout: full
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:tuomas.v.borman@utu.fi
+    - icon: github
+      text: GitHub
+      href: https://github.com/TuomasBorman
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tuomasborman
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0002-8563-8884
+---
+
+::: {.lead-text}
+I am an open-source developer in bioinformatics, based in Turku, Finland.
+:::
+
+I work at the University of Turku in the [Turku Data Science Group](https://datascience.utu.fi),
+where I develop [R/Bioconductor tools](software.qmd) for microbiome data analysis.
+
+My background is in bioinformatics, computing and business. I have master's degrees
+in biotechnology, and in economics and business administration.
+
+## Teaching
+
+I like teaching. I am a certified [Carpentries](https://carpentries.org) instructor,
+and I run workshops and courses on microbiome data analysis.
+See the [list of presentations and workshops](presentations.qmd).
+
+## Consulting
+
+I offer consulting and training in bioinformatics, and data analytics for business.
+We can start with a call in Finnish or English. See [services](services.qmd).
+
+## Positions of trust
+
+- **Chair of the Board, [The Finnish Society for Bioinformatics](https://bioinf.fi).**
+  The national society for bioinformaticians in Finland. It runs networking events,
+  training and Bioinformatics Day.
+- **Member of the Community Advisory Board, [Bioconductor](https://bioconductor.org).**
+  Bioconductor is an open-source project for bioinformatics software in R. The
+  [Community Advisory Board](https://bioconductor.org/about/community-advisory-board/)
+  represents the user and developer community in the project.
+- **Coordinator, [CompLifeSci](https://biocityturku.fi/research-programs/complifesci/).**
+  Computational and Molecular Methodologies for Life Sciences, a research programme of
+  BioCity Turku that brings together computational and life science researchers in Turku.
+
+## Event organisation
+
+- Organising committee member of the European Bioconductor Conference since 2024
+- Coordinated the European Bioconductor Conference 2026
+- Coordinated several local and national events with 20–200 participants
+
+## Work and education
+
+```{r}
+#| output: asis
+source("R/helpers.R")
+timeline(yaml::read_yaml("data/cv.yml"))
+```
+
+[Full CV](cv.qmd)

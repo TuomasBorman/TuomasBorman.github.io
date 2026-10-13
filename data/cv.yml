@@ -1,0 +1,177 @@
+# CV content. Edit this file to update both cv.html and cv.pdf.
+#
+# Dates: "YYYY", "YYYY-MM" or "present".
+# short: optional shorter title for the timeline on the home page.
+# Text fields accept Markdown (e.g. **bold**, [link](https://...)).
+
+name: Tuomas Borman
+headline: Open-source developer in bioinformatics
+contact:
+  - icon: envelope
+    text: tuomas.v.borman@utu.fi
+    url: mailto:tuomas.v.borman@utu.fi
+  - icon: github
+    text: TuomasBorman
+    url: https://github.com/TuomasBorman
+  - icon: linkedin
+    text: tuomasborman
+    url: https://www.linkedin.com/in/tuomasborman
+  - icon: orcid
+    text: 0000-0002-8563-8884
+    url: https://orcid.org/0000-0002-8563-8884
+
+sections:
+  - title: Work experience
+    entries:
+      - title: Doctoral Researcher (Data Science)
+        short: Doctoral Researcher
+        org: University of Turku
+        location: Turku, Finland
+        start: 2023-01
+        end: present
+        bullets:
+          - Develop open-source R/Bioconductor tools for microbiome data analysis in the [Turku Data Science Group](https://datascience.utu.fi).
+      - title: Entrepreneur, data science consultant
+        short: Entrepreneur
+        org: Statlab Oy
+        location: Turku, Finland
+        start: 2023-07
+        end: present
+        bullets:
+          - Consulting in bioinformatics and business intelligence.
+          - Bioinformatics workshops for teams and researchers.
+      - title: Project Worker
+        org: Handata Oy
+        location: Turku, Finland
+        start: 2022-04
+        end: 2022-12
+        bullets:
+          - Developed business intelligence tools.
+      - title: Project Researcher (Data Science)
+        short: Project Researcher
+        org: University of Turku
+        location: Turku, Finland
+        start: 2022-07
+        end: 2022-12
+        bullets:
+          - Analysed biomedical data and developed data science tools.
+      - title: Research Assistant (Data Science)
+        short: Research Assistant
+        org: University of Turku
+        location: Turku, Finland
+        start: 2020-10
+        end: 2022-06
+        bullets:
+          - Analysed biomedical data and developed data science tools.
+      - title: Teaching Assistant (Biotechnology)
+        short: Teaching Assistant
+        org: University of Turku
+        location: Turku, Finland
+        start: 2020-10
+        end: 2021-02
+        bullets:
+          - Taught on an MSc laboratory course (Laboratory Exercises in Molecular Biotechnology) and a BSc laboratory course (Biotechnical Systems).
+
+  - title: Education
+    entries:
+      - title: Doctor of Science (Technology), Information and Communication Technology
+        short: DSc (Tech), ICT
+        org: University of Turku
+        location: Turku, Finland
+        start: 2023
+        end: present
+      - title: Master of Science (Economics and Business Administration), Accounting and Finance
+        short: MSc (Econ)
+        org: Turku School of Economics, University of Turku
+        location: Turku, Finland
+        start: 2022
+        end: 2023
+      - title: Master of Science (Technology), Biotechnology
+        short: MSc (Tech), Biotechnology
+        org: University of Turku
+        location: Turku, Finland
+        start: 2020
+        end: 2022
+        bullets:
+          - "Thesis: *Microbiome data science workflow with an application to appendicitis*"
+      - title: Bachelor of Science (Economics and Business Administration), Accounting and Finance
+        short: BSc (Econ)
+        org: Turku School of Economics, University of Turku
+        location: Turku, Finland
+        start: 2020
+        end: 2022
+        bullets:
+          - "Thesis: *Using artificial intelligence in customer segmentation*"
+      - title: Bachelor of Science (Technology), Biotechnology
+        short: BSc (Tech), Biotechnology
+        org: University of Turku
+        location: Turku, Finland
+        start: 2017
+        end: 2020
+        bullets:
+          - "Thesis: *Clinical prion analytics of Creutzfeldt–Jakob disease*"
+
+  - title: Positions of trust
+    entries:
+      - title: Chair of the Board
+        org: The Finnish Society for Bioinformatics
+        start: 2026-05
+        end: present
+      - title: Board member
+        org: The Finnish Society for Bioinformatics
+        start: 2024-06
+        end: 2026-05
+      - title: Member, Community Advisory Board (CAB)
+        org: Bioconductor
+        start: 2025-10
+        end: present
+      - title: Coordinator
+        org: Computational and Molecular Methodologies for Life Sciences (CompLifeSci), BioCity Turku
+        start: 2022-08
+        end: present
+
+  - title: Event organisation
+    entries:
+      - title: Coordinator
+        org: European Bioconductor Conference 2026, Turku
+        start: 2025
+        end: 2026
+      - title: Organising committee member
+        org: European Bioconductor Conference
+        start: 2024
+        end: present
+      - title: Local and national events
+        org: CompLifeSci and others
+        start: 2022
+        end: present
+        bullets:
+          - Coordinated several events with 20–200 participants.
+
+  - title: Other activities
+    entries:
+      - title: Member, Training and Microbiome working groups
+        org: Bioconductor
+        start: 2026-06
+        end: present
+
+  - title: Mentoring
+    entries:
+      - title: Mentor
+        org: Outreachy
+        start: 2023-01
+        end: 2023-08
+
+  - title: Certificates
+    entries:
+      - title: Certified Instructor
+        org: The Carpentries
+        start: 2025-06
+      - title: PMAF Project Management Foundation Certificate (IPMA D)
+        org: Project Professionals Finland
+        start: 2018-04
+
+  - title: Skills
+    items:
+      - "**Programming and tools:** R, Bioconductor, Python, SQL, Git"
+      - "**Methods:** statistical modelling, machine learning, data mining, microbiome and multi-omics data analysis"
+      - "**Languages:** Finnish (native), English (full professional), Swedish (limited working), German (elementary)"

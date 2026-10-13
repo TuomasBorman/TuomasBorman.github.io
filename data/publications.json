@@ -1,0 +1,123 @@
+{
+  "orcid": "0000-0002-8563-8884",
+  "updated": "2026-10-13",
+  "publications": [
+    {
+      "title": "Joint-RPCA: domain-aware multi-omics integration for systems microbiology",
+      "authors": ["Bianca Cordazzo Vargas", "Cameron Martino", "Amanda Hazel Dilmore", "Jessica L Metcalf", "Zachary M Burcham", "Leo Lahti", "Aituar Bektanov", "Tuomas Borman", "Veikko Salomaa", "Teemu Niiranen", "Aki S Havulinna", "Rachel Gregor", "Stav Eyal", "Michael M Meijler", "Itzhak Mizrahi", "Se Jin Song", "Andrew Bartko", "Pieter C Dorrestein", "James T Morton", "Daniel McDonald", "Rob Knight", "Liat Shenhav"],
+      "year": 2026,
+      "month": 8,
+      "journal": "Molecular Systems Biology",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": "10.1038/s44320-026-00236-3",
+      "type": "journal-article",
+      "preprint": false
+    },
+    {
+      "title": "Uncomplicated and Complicated Acute Appendicitis Induce Different Cytokine Patterns",
+      "authors": ["Tatu Han", "Tuomas Borman", "Sanja Vanhatalo", "Leo Lahti", "Eliisa Löyttyniemi", "Saija Hurme", "Eveliina Munukka", "Teemu Kallonen", "Antti Hakanen", "Maija Hollmén", "Paulina Salminen"],
+      "year": 2026,
+      "month": 2,
+      "journal": "APMIS",
+      "volume": "134",
+      "issue": "2",
+      "pages": null,
+      "doi": "10.1111/apm.70168",
+      "type": "journal-article",
+      "preprint": false
+    },
+    {
+      "title": "HoloFoodR: a statistical programming framework for holo-omics data integration workflows",
+      "authors": ["Tuomas Borman", "Artur Sannikov", "Robert D Finn", "Morten Tønsberg Limborg", "Alexander B Rogers", "Varsha Kale", "Kati Hanhineva", "Leo Lahti"],
+      "year": 2025,
+      "month": 11,
+      "journal": "Bioinformatics",
+      "volume": "41",
+      "issue": "11",
+      "pages": null,
+      "doi": "10.1093/bioinformatics/btaf605",
+      "type": "journal-article",
+      "preprint": false
+    },
+    {
+      "title": "Orchestrating Microbiome Analysis with Bioconductor",
+      "authors": ["Tuomas Borman", "Giulio Benedetti", "Geraldson Muluh", "Aura Raulo", "Benjamin Valderrama", "Artur Sannikov", "Stefanie Peschel", "Yihan Liu", "Rasmus Hindström", "Katariina Pärnänen", "Christian L. Müller", "Aki S. Havulinna", "Sudarshan Shetty", "Marcel Ramos", "Domenick J. Braccia", "Héctor Corrada Bravo", "Felix M. Ernst", "Levi Waldron", "Thomaz F. S. Bastiaanssen", "Himel Mallick", "Leo Lahti"],
+      "year": 2025,
+      "month": 10,
+      "journal": "bioRxiv",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": "10.1101/2025.10.29.685036",
+      "type": "preprint",
+      "preprint": true
+    },
+    {
+      "title": "Multi-omics time-series analysis in microbiome research: a systematic review",
+      "authors": ["Moiz Khan Sherwani", "Matti O Ruuskanen", "Dylan Feldner-Busztin", "Panos Nisantzis Firbas", "Gergely Boza", "Ágnes Móréh", "Tuomas Borman", "Pande Putu Erawijantari", "István Scheuring", "Shyam Gopalakrishnan", "Leo Lahti"],
+      "year": 2025,
+      "month": 8,
+      "journal": "Briefings in Bioinformatics",
+      "volume": "26",
+      "issue": "5",
+      "pages": null,
+      "doi": "10.1093/bib/bbaf502",
+      "type": "journal-article",
+      "preprint": false
+    },
+    {
+      "title": "iSEEtree: interactive explorer for hierarchical data",
+      "authors": ["Giulio Benedetti", "Ely Seraidarian", "Theotime Pralas", "Akewak Jeba", "Tuomas Borman", "Leo Lahti"],
+      "year": 2024,
+      "month": 12,
+      "journal": "Bioinformatics Advances",
+      "volume": "5",
+      "issue": "1",
+      "pages": null,
+      "doi": "10.1093/bioadv/vbaf107",
+      "type": "journal-article",
+      "preprint": false
+    },
+    {
+      "title": "Fecal microbiota profiles of growing pigs and their relation to growth performance",
+      "authors": ["Emilia König", "Shea Beasley", "Paulina Heponiemi", "Sanni Kivinen", "Jaakko Räkköläinen", "Seppo Salminen", "Maria Carmen Collado", "Tuomas Borman", "Leo Lahti", "Virpi Piirainen", "Anna Valros", "Mari Heinonen"],
+      "year": 2024,
+      "month": 5,
+      "journal": "PLOS ONE",
+      "volume": "19",
+      "issue": "5",
+      "pages": "e0302724",
+      "doi": "10.1371/journal.pone.0302724",
+      "type": "journal-article",
+      "preprint": false
+    },
+    {
+      "title": "Fewer culturable Lactobacillaceae species identified in faecal samples of pigs performing manipulative behaviour",
+      "authors": ["Emilia König", "Paulina Heponiemi", "Sanni Kivinen", "Jaakko Räkköläinen", "Shea Beasley", "Tuomas Borman", "Maria Carmen Collado", "Vilja Hukkinen", "Jouni Junnila", "Leo Lahti", "Marianna Norring", "Virpi Piirainen", "Seppo Salminen", "Mari Heinonen", "Anna Valros"],
+      "year": 2024,
+      "month": 1,
+      "journal": "Scientific Reports",
+      "volume": "14",
+      "issue": "1",
+      "pages": null,
+      "doi": "10.1038/s41598-023-50791-0",
+      "type": "journal-article",
+      "preprint": false
+    },
+    {
+      "title": "miaSim: an R/Bioconductor package to easily simulate microbial community dynamics",
+      "authors": ["Yu Gao", "Yağmur Şimşek", "Emma Gheysen", "Tuomas Borman", "Yi Li", "Leo Lahti", "Karoline Faust", "Daniel Rios Garza"],
+      "year": 2023,
+      "month": 5,
+      "journal": "Methods in Ecology and Evolution",
+      "volume": "14",
+      "issue": "8",
+      "pages": "1967-1980",
+      "doi": "10.1111/2041-210x.14129",
+      "type": "journal-article",
+      "preprint": false
+    }
+  ]
+}

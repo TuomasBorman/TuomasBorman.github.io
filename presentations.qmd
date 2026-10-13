@@ -1,0 +1,64 @@
+---
+title: "Presentations"
+subtitle: "Talks, posters, workshops and courses"
+format:
+  html: default
+  typst:
+    title: "Tuomas Borman — Presentations"
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+    include-in-header: assets/pdf.typ
+---
+
+```{r}
+source("R/helpers.R")
+talks <- read_talks()
+n <- talk_stats(talks)
+```
+
+::: {.content-visible when-format="html"}
+::: {.btn-row}
+[<i class="bi bi-file-earmark-pdf"></i> Download PDF](presentations.pdf){.btn .btn-primary}
+:::
+
+::: {.stats}
+[`r n[["teaching"]]`]{.stat-number} [workshops and courses]{.stat-label}
+
+[`r n[["talk"]]`]{.stat-number} [talks and demos]{.stat-label}
+
+[`r n[["poster"]]`]{.stat-number} [posters]{.stat-label}
+:::
+
+```{=html}
+<div class="filters btn-row" role="group" aria-label="Filter">
+  <button class="btn btn-sm btn-outline-primary active" data-filter="all">All</button>
+  <button class="btn btn-sm btn-outline-primary" data-filter="teaching">Workshops &amp; courses</button>
+  <button class="btn btn-sm btn-outline-primary" data-filter="talk">Talks</button>
+  <button class="btn btn-sm btn-outline-primary" data-filter="poster">Posters</button>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".filters button");
+  buttons.forEach(b => b.addEventListener("click", () => {
+    buttons.forEach(x => x.classList.toggle("active", x === b));
+    const f = b.dataset.filter;
+    document.querySelectorAll(".talk").forEach(t => {
+      t.style.display = (f === "all" || t.dataset.group === f) ? "" : "none";
+    });
+    document.querySelectorAll(".talk-year").forEach(y => {
+      const shown = [...y.querySelectorAll(".talk")].some(t => t.style.display !== "none");
+      y.style.display = shown ? "" : "none";
+    });
+  }));
+});
+</script>
+```
+:::
+
+```{r}
+#| output: asis
+updated_note("data/presentations.yml")
+talk_list(talks)
+```

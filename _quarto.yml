@@ -1,0 +1,60 @@
+project:
+  type: website
+  render:
+    - index.qmd
+    - services.qmd
+    - cv.qmd
+    - cv-rcf.qmd
+    - publications.qmd
+    - software.qmd
+    - presentations.qmd
+  resources:
+    - data/publications.bib
+    - assets/orcid.svg
+
+website:
+  title: "Tuomas Borman"
+  site-url: https://tuomasborman.github.io
+  description: "Open-source developer in bioinformatics"
+  favicon: assets/portrait.jpg
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: services.qmd
+        text: Services
+      - href: cv.qmd
+        text: CV
+      - href: publications.qmd
+        text: Publications
+      - href: software.qmd
+        text: Software
+      - href: presentations.qmd
+        text: Presentations
+    right:
+      - icon: github
+        href: https://github.com/TuomasBorman
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/tuomasborman
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:tuomas.v.borman@utu.fi
+        aria-label: Email
+  page-footer:
+    center: "© Tuomas Borman · Built with [Quarto](https://quarto.org)"
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/styles.scss]
+      dark: [cosmo, assets/styles.scss, assets/dark.scss]
+    mainfont: Inter
+    toc: false
+    page-layout: article
+    format-links: false

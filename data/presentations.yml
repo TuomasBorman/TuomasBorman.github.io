@@ -1,0 +1,325 @@
+# Talks, posters, workshops and courses. Edit this file to update the
+# Presentations page. Add new items anywhere; the page sorts them by date.
+#
+# Fields
+#   date:     "YYYY", "YYYY-MM" or "YYYY-MM-DD" (required)
+#   end:      last day of a multi-day item (optional)
+#   type:     Talk, Short talk, Lightning talk, Poster, Demo, Webinar,
+#             Workshop, Course, Lecture, Summer school, Winter school
+#   title:    optional
+#   event:    name of the event
+#   location: city and country, or "Online"
+#   role:     optional; for teaching use "Lead instructor" or "Co-instructor"
+#   with:     optional, other instructors (kept for your records, not shown)
+#   duration: optional, free text
+#   url:      optional link (slides, event page, material)
+
+- date: "2026-10-05"
+  end: "2026-10-07"
+  type: Course
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: TNO, Microbiology and Systems Biology department
+  location: Leiden, Netherlands
+  role: Co-instructor
+  with: Leo Lahti
+  duration: 3 days
+
+- date: "2026-09-28"
+  end: "2026-09-30"
+  type: Course
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: University of Oulu doctoral school
+  location: Oulu, Finland
+  role: Co-instructor
+  with: Leo Lahti
+  duration: 3 days
+
+- date: "2026-09-03"
+  type: Workshop
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: ECCB 2026
+  location: Geneva, Switzerland
+  role: Co-instructor
+  with: Mahameh Salehi, Himmi Lindgren, Sneha Das
+
+- date: "2026-09-01"
+  type: Poster
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: ECCB 2026
+  location: Geneva, Switzerland
+
+- date: "2026-08-18"
+  type: Poster
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: ISME 2026
+  location: Auckland, New Zealand
+
+- date: "2026-08-11"
+  type: Workshop
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: Bioconductor Conference 2026
+  location: Seattle, USA
+  duration: 1.5 hours
+  role: Lead instructor
+
+- date: "2026-06-03"
+  type: Short talk
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: European Bioconductor Conference 2026
+  location: Turku, Finland
+  duration: 10 minutes
+
+- date: "2026-06-01"
+  end: "2026-06-02"
+  type: Workshop
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: Carpentries workshop, European Bioconductor Conference 2026
+  location: Turku, Finland
+  role: Co-instructor
+  with: Leo Lahti, Himel Mallick, Thomaz Bastiaanssen, Giulio Benedetti
+  duration: 2 days
+
+- date: "2026-05"
+  type: Webinar
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: Bioconductor webinar series
+  location: Online
+  duration: 3 × 1 hour
+
+- date: "2026-02-02"
+  end: "2026-02-06"
+  type: Course
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: Physalia Courses
+  location: Online
+  role: Co-instructor
+  with: Leo Lahti
+  duration: 5 days
+
+- date: "2026-01-06"
+  type: Talk
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: Journal club
+  location: Online
+  duration: 30 minutes
+
+- date: "2025-12-04"
+  type: Workshop
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: Bioinformatics and a changing society seminar
+  location: Turku, Finland
+  role: Co-instructor
+  with: Matti Ruuskanen
+  duration: 2 hours
+
+- date: "2025-11-27"
+  type: Workshop
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: Bioconductor Asia Conference (BioCAsia) 2025
+  location: Adelaide, Australia
+  duration: 3.5 hours
+  role: Lead instructor
+
+- date: "2025-11-25"
+  type: Lightning talk
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: ABACBS 2025
+  location: Adelaide, Australia
+
+- date: "2025-11-25"
+  type: Poster
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: ABACBS 2025
+  location: Adelaide, Australia
+
+- date: "2025-11-24"
+  type: Poster
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: COMBINE 2025
+  location: Adelaide, Australia
+
+- date: "2025-10-09"
+  type: Lecture
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: Metagenomic Bioinformatics in MGnify course, EMBL-EBI
+  location: Hinxton, UK
+  role: Co-instructor
+  with: Leo Lahti
+  duration: 3 hours
+
+- date: "2025-10-08"
+  type: Demo
+  event: FindingPheno meeting
+  location: Copenhagen, Denmark
+  duration: 20 minutes
+
+- date: "2025-09-18"
+  type: Workshop
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: European Bioconductor Conference 2025
+  location: Barcelona, Spain
+  duration: 1 h 45 min
+  role: Lead instructor
+
+- date: "2025-09-17"
+  type: Poster
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: European Bioconductor Conference 2025
+  location: Barcelona, Spain
+
+- date: "2025-08-25"
+  end: "2025-08-29"
+  type: Summer school
+  title: Orchestrating Microbiome Analysis with Bioconductor
+  event: SCELSE, National University of Singapore
+  location: Singapore
+  duration: 4 days
+  role: Lead instructor
+
+- date: "2025-07"
+  type: Tech track talk
+  event: ISMB/ECCB 2025
+  location: Liverpool, UK
+  duration: 20 minutes
+
+- date: "2025-07"
+  type: Poster
+  event: ISMB/ECCB 2025
+  location: Liverpool, UK
+
+- date: "2025-07"
+  type: Poster
+  event: ISCB Student Council Symposium 2025
+  location: Liverpool, UK
+
+- date: "2025"
+  type: Summer school
+  event: Brain, Bacteria, Behaviour summer course
+  location: Nijmegen, Netherlands
+  duration: 5 days
+  role: Lead instructor
+
+- date: "2025"
+  type: Workshop
+  event: Galaxy and Bioconductor Community Conference (GBCC) 2025
+  location: New York, USA
+  duration: 1.5 hours
+  role: Lead instructor
+
+- date: "2025"
+  type: Talk
+  event: Galaxy and Bioconductor Community Conference (GBCC) 2025
+  location: New York, USA
+  duration: 10 minutes
+
+- date: "2025"
+  type: Poster
+  event: Galaxy and Bioconductor Community Conference (GBCC) 2025
+  location: New York, USA
+
+- date: "2025"
+  type: Poster
+  event: ISBRA 2025
+  location: Helsinki, Finland
+
+- date: "2025"
+  type: Poster
+  event: Bioinformatics Day
+  location: Turku, Finland
+
+- date: "2024"
+  type: Winter school
+  event: Winter school
+  location: Oulu, Finland
+  role: Co-instructor
+  with: Leo Lahti
+  duration: 3 days
+
+- date: "2024"
+  type: Talk
+  event: OH-BOOST webinar, Microbiota Data Analysis and Statistics
+  location: Online
+  duration: 40 minutes
+
+- date: "2024"
+  type: Poster
+  event: Gut-Brain Axis Symposium
+  location: Turku, Finland
+
+- date: "2024-09"
+  type: Workshop
+  event: ECCB 2024
+  location: Turku, Finland
+  role: Co-instructor
+  with: Leo Lahti
+  duration: 3 hours
+
+- date: "2024-09"
+  type: Poster
+  event: ECCB 2024
+  location: Turku, Finland
+
+- date: "2024-09"
+  type: Demo
+  event: European Bioconductor Conference 2024
+  location: Oxford, UK
+
+- date: "2024-08"
+  type: Poster
+  event: ISME 2024
+  location: Cape Town, South Africa
+
+- date: "2023"
+  type: Poster
+  event: CompLifeSci annual meeting
+  location: Turku, Finland
+
+- date: "2023-09"
+  type: Demo
+  event: European Bioconductor Conference 2023
+  location: Ghent, Belgium
+
+- date: "2023-09"
+  type: Poster
+  event: European Bioconductor Conference 2023
+  location: Ghent, Belgium
+
+- date: "2023"
+  type: Poster
+  event: 14th Finnish Gut Day
+  location: Helsinki, Finland
+
+- date: "2022"
+  type: Poster
+  event: AI Day 2022
+  location: Espoo, Finland
+
+- date: "2022"
+  type: Workshop
+  event: ML4Microbiome
+  role: Co-instructor
+  location: Barcelona, Spain
+
+- date: "2022-09"
+  type: Talk
+  event: European Bioconductor Conference 2022
+  location: Heidelberg, Germany
+  duration: 10 minutes
+
+- date: "2022"
+  type: Summer school
+  event: Summer school
+  location: Oulu, Finland
+  role: Teaching assistant
+  with: Leo Lahti
+  duration: 3 days
+
+- date: "2022"
+  type: Poster
+  event: Bioinformatics Day
+  location: Espoo, Finland
+
+- date: "2021"
+  type: Poster
+  event: Microbiome Interactions in Health and Disease 2021
+  location: Online

@@ -1,0 +1,38 @@
+---
+title: "Publications"
+subtitle: "Articles, software and other research outputs"
+format:
+  html: default
+  typst:
+    title: "List of publications"
+    subtitle: "Tuomas Borman"
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+    include-in-header: assets/pdf.typ
+---
+
+```{r}
+source("R/helpers.R")
+s <- pub_stats()
+```
+
+::: {.content-visible when-format="html"}
+::: {.btn-row}
+[<i class="bi bi-file-earmark-pdf"></i> Download PDF](publications.pdf){.btn .btn-primary}
+[<i class="bi bi-braces"></i> BibTeX](data/publications.bib){.btn .btn-outline-primary}
+[<img src="assets/orcid.svg" class="orcid-icon" alt=""> ORCID](https://orcid.org/0000-0002-8563-8884){.btn .btn-outline-primary}
+:::
+
+[Grouped by the publication classification used by the [Research Council of Finland](https://www.aka.fi/julkaisuluettelo/). Updated automatically from [ORCID](https://orcid.org/0000-0002-8563-8884); last updated `r s$updated`.]{.updated}
+:::
+
+::: {.content-visible when-format="typst"}
+Date: `r s$updated`
+:::
+
+```{r}
+#| output: asis
+pub_list()
+```

@@ -1,0 +1,94 @@
+# CV in the Research Council of Finland (Suomen Akatemia) format:
+# https://www.aka.fi/tutkimusrahoitus/hae-rahoitusta/nain-haet-rahoitusta/ohjehakemisto/ansioluettelo/
+#
+# Rules from the Research Council: at most 3 pages, no photo, only merits
+# completed by the call deadline, no impact factors or h-index.
+#
+# Each section can have:
+#   fields:  name/value lines ("auto" = date of the latest change to the CV data)
+#   text:    a paragraph (Markdown)
+#   use:     copy entries from a section of data/cv.yml,
+#            with filter: current (end: present) or previous/completed
+#   entries: entries in the same format as data/cv.yml
+#   auto:    teaching = summary generated from data/presentations.yml
+#   items:   bullet points (Markdown)
+
+# The "Date of CV" is the latest change to any of these files
+date_from: [data/cv-rcf.yml, data/cv.yml, data/presentations.yml]
+
+sections:
+  - title: 1. Personal details and date of CV
+    fields:
+      - name: Name
+        value: Borman, Tuomas
+      - name: ORCID
+        value: "[0000-0002-8563-8884](https://orcid.org/0000-0002-8563-8884)"
+      - name: Date of CV
+        value: auto
+
+  - title: 2. Degrees and academic titles
+    use: Education
+    filter: completed
+    text: |
+      Institution that awarded the highest degree: University of Turku, FI-20014 University of Turku, Finland.
+
+  - title: 3. Current employment
+    use: Work experience
+    filter: current
+    items:
+      - "Research career stage: I (doctoral researcher)."
+      - "Doctoral studies: Doctor of Science (Technology), Information and Communication Technology, Doctoral Programme in Technology (DPT), University of Turku, 2023–."
+      - "Secondary position: entrepreneur, Statlab Oy (data science and bioinformatics consulting)."
+
+  - title: 4. Previous work experience
+    use: Work experience
+    filter: previous
+
+  - title: 5. Career breaks
+    text: "None."
+
+  - title: 6. Research funding and grants
+    entries:
+      - title: Salaried doctoral researcher position
+        org: University of Turku Doctoral School
+        start: 2025-01
+        end: 2026-12
+        bullets:
+          - Personal funding, competitively awarded to the applicant.
+
+  - title: 7. Research output
+    items:
+      - "**Orchestrating Microbiome Analysis with Bioconductor (OMA)**, 2020–. Open-source R/Bioconductor framework for microbiome data science (<https://microbiome.github.io>). Core developer. Maintainer of the R/Bioconductor packages mia, miaViz, miaTime, HoloFoodR and MGnifyR, and of the OMA online book."
+      - "Contributor to several other open-source R packages, including anansi, bluster, miaSim, scater, TreeSummarizedExperiment and vegan."
+
+  - title: 8. Supervision and leadership experience
+    items:
+      - "Thesis supervisor for 1 Master's thesis and 1 Bachelor's thesis."
+      - "Chair of the Board, The Finnish Society for Bioinformatics, 2026–; board member 2024–2026."
+      - "Mentor, Outreachy open-source internship programme, 2023."
+      - "Coordinator of the European Bioconductor Conference 2026 organisation; coordinator of CompLifeSci, BioCity Turku, 2022–."
+
+  - title: 9. Teaching merits
+    auto: teaching
+    items:
+      - "Certified Carpentries Instructor, The Carpentries, 2025."
+      - "Open educational resources: developer of the open-source OMA online book (<https://microbiome.github.io/OMA>), Carpentries lesson material and other open training material for microbiome data analysis."
+
+  - title: 10. Awards and honours
+    # TODO: add awards (including teaching awards)
+    text: "–"
+
+  - title: 11. Other significant academic merits
+    items:
+      - "Member of the Community Advisory Board, Bioconductor, 2025–."
+      - "Coordinator, European Bioconductor Conference 2026, Turku."
+      - "Coordinator, Computational and Molecular Methodologies for Life Sciences (CompLifeSci), BioCity Turku, 2022–. Coordinated several local and national events with 20–200 participants."
+
+  - title: 12. Scientific and societal impact
+    items:
+      - "Open science: all software and training material are open source and openly available through Bioconductor and GitHub."
+
+  - title: 13. Other
+    items:
+      - "Member of the Bioconductor Training and Microbiome working groups, 2026–."
+      - "Organising committee member, European Bioconductor Conference (EuroBioC), 2024–."

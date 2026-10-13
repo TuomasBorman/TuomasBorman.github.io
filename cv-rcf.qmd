@@ -1,0 +1,17 @@
+---
+title: "Curriculum vitae"
+subtitle: "Tuomas Borman"
+format:
+  typst:
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+    include-in-header: assets/pdf.typ
+---
+
+```{r}
+#| output: asis
+source("R/helpers.R")
+rcf_cv(yaml::read_yaml("data/cv-rcf.yml"), yaml::read_yaml("data/cv.yml"))
+```

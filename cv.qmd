@@ -1,0 +1,68 @@
+---
+title: "CV"
+subtitle: "Work, education and positions of trust"
+format:
+  html: default
+  typst:
+    title: "Tuomas Borman"
+    subtitle: "Curriculum vitae"
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+    include-in-header: assets/pdf.typ
+---
+
+```{r}
+source("R/helpers.R")
+cv <- yaml::read_yaml("data/cv.yml")
+rcf <- yaml::read_yaml("data/cv-rcf.yml")
+```
+
+::: {.content-visible when-format="html"}
+::: {.panel-tabset group="cv-format"}
+
+## Standard
+
+::: {.btn-row}
+[<i class="bi bi-file-earmark-pdf"></i> Download PDF](cv.pdf){.btn .btn-primary}
+:::
+
+```{r}
+#| output: asis
+cv_header(cv)
+updated_note("data/cv.yml")
+cv_sections(cv, level = 3)
+```
+
+### Publications and presentations
+
+See [publications](publications.qmd) and [presentations](presentations.qmd).
+
+## Research Council of Finland
+
+::: {.btn-row}
+[<i class="bi bi-file-earmark-pdf"></i> Download PDF](cv-rcf.pdf){.btn .btn-primary}
+:::
+
+[CV in the [Research Council of Finland template](https://www.aka.fi/tutkimusrahoitus/hae-rahoitusta/nain-haet-rahoitusta/ohjehakemisto/ansioluettelo/).]{.updated}
+
+```{r}
+#| output: asis
+rcf_cv(rcf, cv, level = 3)
+```
+
+:::
+:::
+
+::: {.content-visible when-format="typst"}
+```{r}
+#| output: asis
+cv_header(cv)
+updated_note("data/cv.yml")
+cv_sections(cv)
+```
+
+Publications: <https://tuomasborman.github.io/publications.html> ·
+Presentations: <https://tuomasborman.github.io/presentations.html>
+:::

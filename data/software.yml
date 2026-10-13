@@ -1,0 +1,142 @@
+# Open-source software shown on the Software page.
+#
+# Fields
+#   name:        package name (required)
+#   description: one line (required)
+#   type:        Package or Book
+#   role:        Maintainer or Contributor
+#   url:         home page
+#   github:      GitHub repository "owner/name"
+#   repository:  Bioconductor, CRAN or GitHub
+#   bioc:        true to show the Bioconductor build status badges
+
+- name: mia
+  description: Microbiome analysis
+  type: Package
+  role: Maintainer
+  url: https://bioconductor.org/packages/mia
+  github: microbiome/mia
+  repository: Bioconductor
+  bioc: true
+
+- name: miaViz
+  description: Microbiome analysis plotting and visualization
+  type: Package
+  role: Maintainer
+  url: https://bioconductor.org/packages/miaViz
+  github: microbiome/miaViz
+  repository: Bioconductor
+  bioc: true
+
+- name: miaTime
+  description: Microbiome time series analysis
+  type: Package
+  role: Maintainer
+  url: https://microbiome.github.io/miaTime/
+  github: microbiome/miaTime
+  repository: Bioconductor
+  bioc: true
+
+- name: HoloFoodR
+  description: R interface to EBI HoloFood resource
+  type: Package
+  role: Maintainer
+  url: https://bioconductor.org/packages/HoloFoodR
+  github: EBI-Metagenomics/HoloFoodR
+  repository: Bioconductor
+  bioc: true
+
+- name: MGnifyR
+  description: R interface to EBI MGnify metagenomics resource
+  type: Package
+  role: Maintainer
+  url: https://bioconductor.org/packages/MGnifyR
+  github: EBI-Metagenomics/MGnifyR
+  repository: Bioconductor
+  bioc: true
+
+- name: OMA
+  description: Orchestrating Microbiome Analysis with Bioconductor, an open online book
+  type: Book
+  role: Maintainer
+  url: https://bioconductor.org/books/release/OMA/
+  github: microbiome/OMA
+  repository: Bioconductor
+
+- name: anansi
+  description: Annotation-based analysis of specific interactions
+  type: Package
+  role: Contributor
+  url: https://thomazbastiaanssen.github.io/anansi/
+  github: thomazbastiaanssen/anansi
+  repository: Bioconductor
+  bioc: true
+
+- name: bluster
+  description: Clustering algorithms for Bioconductor
+  type: Package
+  role: Contributor
+  url: https://bioconductor.org/packages/bluster
+  github: LTLA/bluster
+  repository: Bioconductor
+  bioc: true
+
+- name: IntegratedLearner
+  description: Integrated multi-omics learning for survival and other outcomes
+  type: Package
+  role: Contributor
+  url: https://github.com/himelmallick/IntegratedLearner
+  github: himelmallick/IntegratedLearner
+  repository: GitHub
+
+- name: miaSim
+  description: Microbiome data simulation
+  type: Package
+  role: Contributor
+  url: https://bioconductor.org/packages/miaSim
+  github: microbiome/miaSim
+  repository: Bioconductor
+  bioc: true
+
+- name: mikropml
+  description: User-friendly R package for supervised machine learning pipelines
+  type: Package
+  role: Contributor
+  url: https://www.schlosslab.org/mikropml/
+  github: SchlossLab/mikropml
+  repository: CRAN
+
+- name: MsExperiment
+  description: Infrastructure for mass spectrometry experiments
+  type: Package
+  role: Contributor
+  url: https://bioconductor.org/packages/MsExperiment
+  github: rformassspectrometry/MsExperiment
+  repository: Bioconductor
+  bioc: true
+
+- name: scater
+  description: Single-cell analysis toolkit for gene expression data in R
+  type: Package
+  role: Contributor
+  url: https://bioconductor.org/packages/scater
+  github: alanocallaghan/scater
+  repository: Bioconductor
+  bioc: true
+
+- name: TreeSummarizedExperiment
+  description: S4 class for data with tree structures
+  type: Package
+  role: Contributor
+  url: https://bioconductor.org/packages/TreeSummarizedExperiment
+  github: markrobinsonuzh/TreeSummarizedExperiment
+  repository: Bioconductor
+  bioc: true
+
+- name: vegan
+  description: Community ecology package
+  type: Package
+  role: Contributor
+  url: https://cran.r-project.org/package=vegan
+  github: vegandevs/vegan
+  repository: CRAN

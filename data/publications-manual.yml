@@ -1,0 +1,65 @@
+# Additions to the publication list fetched from ORCID.
+#
+# Publications are grouped by the classification used by the Research Council
+# of Finland (Ministry of Education and Culture classes A–I):
+#   A Peer-reviewed scientific articles      F Public artistic and design activities
+#   B Non-peer-reviewed scientific writings  G Theses
+#   C Scientific books (monographs)          H Patents and invention disclosures
+#   D Publications for professional communities
+#   E Publications for the general public    I Audiovisual material, ICT software
+#
+# ORCID works are classified automatically (journal articles -> A). To change
+# the class of an ORCID work, add its DOI here, e.g.  "10.1234/abcd": B
+categories: {}
+
+# Works that are not in ORCID. Fields: category, title, authors (list), year,
+# venue (free text), url or doi.
+publications:
+  - category: I
+    title: "mia: Microbiome analysis"
+    venue: R/Bioconductor package. Maintainer
+    url: https://bioconductor.org/packages/mia
+
+  - category: I
+    title: "miaViz: Microbiome analysis plotting and visualization"
+    venue: R/Bioconductor package. Maintainer
+    url: https://bioconductor.org/packages/miaViz
+
+  - category: I
+    title: "miaTime: Microbiome time series analysis"
+    venue: R/Bioconductor package. Maintainer
+    url: https://bioconductor.org/packages/miaTime
+
+  - category: I
+    title: "HoloFoodR: R interface to EBI HoloFood resource"
+    venue: R/Bioconductor package. Maintainer
+    url: https://bioconductor.org/packages/HoloFoodR
+
+  - category: I
+    title: "MGnifyR: R interface to EBI MGnify metagenomics resource"
+    venue: R/Bioconductor package. Maintainer
+    url: https://bioconductor.org/packages/MGnifyR
+
+  - category: I
+    title: "Orchestrating Microbiome Analysis with Bioconductor (OMA)"
+    venue: Open online book. Maintainer
+    url: https://microbiome.github.io/OMA
+
+  # Theses (category G)
+  - category: G
+    authors: [Tuomas Borman]
+    title: "Microbiome data science workflow with an application to appendicitis"
+    venue: "Master's thesis (MSc Tech, Biotechnology), University of Turku"
+    year: 2022
+
+  - category: G
+    authors: [Tuomas Borman]
+    title: "Tekoälyn hyödyntäminen asiakassegmentoinnissa [Using artificial intelligence in customer segmentation]"
+    venue: "Bachelor's thesis (BSc Econ, Accounting and Finance), Turku School of Economics, University of Turku"
+    year: 2021
+
+  - category: G
+    authors: [Tuomas Borman]
+    title: "Creutzfeldt-Jakobin taudin kliininen prionianalytiikka [Clinical prion analytics of Creutzfeldt–Jakob disease]"
+    venue: "Bachelor's thesis (BSc Tech, Biotechnology), University of Turku"
+    year: 2020

@@ -1,0 +1,47 @@
+---
+title: "Services"
+subtitle: "Consulting and training through my company, Statlab Oy"
+---
+
+## Bioinformatics consulting
+
+- Analysis of microbiome and other omics data
+- Statistical analysis and reporting of results
+- Reproducible analysis workflows in R and Python
+- Help with R and Bioconductor: code review and package development
+
+## Training
+
+- Workshops and courses on microbiome data analysis with R and Bioconductor
+- Training for research groups and companies, adjusted to your data and level
+- I am a certified [Carpentries](https://carpentries.org) instructor
+
+I have taught at EMBL-EBI, the National University of Singapore and Bioconductor
+conferences in Europe, the USA and Australia, as well as at Finnish universities and
+other organisations.
+See [past workshops and courses](presentations.qmd).
+
+## Data analytics for business
+
+- Data analysis and reporting to support business decisions
+- Business intelligence tools and custom data software
+
+I have a master's degree in economics and business administration (accounting and
+finance), so I understand both the data and the business side.
+
+## Example project
+
+For a customer that specialises in purchase analytics, I developed Python software.
+It fetches purchase data, curates it automatically and stores it in a database. It then
+analyses and visualises the data. The goal was to see where the money flows and what
+organisations spend it on.
+
+## Contact
+
+We can start with a call in Finnish or English about what you need and how I can help.
+
+To book a call, send me an email with a short description of your project:
+[tuomas.v.borman@utu.fi](mailto:tuomas.v.borman@utu.fi). You can also reach me on
+[LinkedIn](https://www.linkedin.com/in/tuomasborman).
+
+Statlab Oy · Business ID (Y-tunnus) 3379558-3 · Turku, Finland

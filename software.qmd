@@ -1,0 +1,15 @@
+---
+title: "Software"
+subtitle: "Open-source software I maintain or have contributed to"
+---
+
+Most of my work is in R and [Bioconductor](https://bioconductor.org), as part of the
+[Orchestrating Microbiome Analysis](https://microbiome.github.io) project.
+Below are the main projects. For the rest of my work, see my
+[GitHub profile](https://github.com/TuomasBorman).
+
+```{r}
+#| output: asis
+source("R/helpers.R")
+software_list()
+```
