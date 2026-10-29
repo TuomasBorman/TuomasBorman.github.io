@@ -78,32 +78,32 @@ sections:
         short: DSc (Tech), ICT
         org: University of Turku
         location: Turku, Finland
-        start: 2023
+        start: 2023-01-01
         end: present
       - title: Master of Science (Economics and Business Administration), Accounting and Finance
         short: MSc (Econ)
         org: Turku School of Economics, University of Turku
         location: Turku, Finland
-        start: 2022
-        end: 2023
+        start: 2022-09-29
+        end: 2023-07-31
       - title: Master of Science (Technology), Biotechnology
         short: MSc (Tech), Biotechnology
         org: University of Turku
         location: Turku, Finland
-        start: 2020
-        end: 2022
+        start: 2020-06-05
+        end: 2022-06-23
       - title: Bachelor of Science (Economics and Business Administration), Accounting and Finance
         short: BSc (Econ)
         org: Turku School of Economics, University of Turku
         location: Turku, Finland
-        start: 2020
-        end: 2022
+        start: 2020-08-27
+        end: 2022-07-29
       - title: Bachelor of Science (Technology), Biotechnology
         short: BSc (Tech), Biotechnology
         org: University of Turku
         location: Turku, Finland
-        start: 2017
-        end: 2020
+        start: 2017-08-01
+        end: 2020-06-05
 
   - title: Positions of trust
     entries:
