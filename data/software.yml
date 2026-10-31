@@ -10,30 +10,12 @@
 #   repository:  Bioconductor, CRAN or GitHub
 #   bioc:        true to show the Bioconductor build status badges
 
-- name: mia
-  description: Microbiome analysis
+- name: alabaster.treese
+  description: Load and save TreeSummarizedExperiment data object from file
   type: Package
   role: Maintainer
-  url: https://bioconductor.org/packages/mia
-  github: microbiome/mia
-  repository: Bioconductor
-  bioc: true
-
-- name: miaViz
-  description: Microbiome analysis plotting and visualization
-  type: Package
-  role: Maintainer
-  url: https://bioconductor.org/packages/miaViz
-  github: microbiome/miaViz
-  repository: Bioconductor
-  bioc: true
-
-- name: miaTime
-  description: Microbiome time series analysis
-  type: Package
-  role: Maintainer
-  url: https://microbiome.github.io/miaTime/
-  github: microbiome/miaTime
+  url: https://bioconductor.org/packages/alabaster.treese
+  github: microbiome/alabaster.treese
   repository: Bioconductor
   bioc: true
 
@@ -52,6 +34,33 @@
   role: Maintainer
   url: https://bioconductor.org/packages/MGnifyR
   github: EBI-Metagenomics/MGnifyR
+  repository: Bioconductor
+  bioc: true
+
+- name: mia
+  description: Microbiome analysis
+  type: Package
+  role: Maintainer
+  url: https://bioconductor.org/packages/mia
+  github: microbiome/mia
+  repository: Bioconductor
+  bioc: true
+
+- name: miaTime
+  description: Microbiome time series analysis
+  type: Package
+  role: Maintainer
+  url: https://microbiome.github.io/miaTime/
+  github: microbiome/miaTime
+  repository: Bioconductor
+  bioc: true
+
+- name: miaViz
+  description: Microbiome analysis plotting and visualization
+  type: Package
+  role: Maintainer
+  url: https://bioconductor.org/packages/miaViz
+  github: microbiome/miaViz
   repository: Bioconductor
   bioc: true
 
