@@ -1,6 +1,6 @@
 {
   "orcid": "0000-0002-8563-8884",
-  "updated": "2026-10-13",
+  "updated": "2026-11-02",
   "publications": [
     {
       "title": "Joint-RPCA: domain-aware multi-omics integration for systems microbiology",
@@ -8,9 +8,9 @@
       "year": 2026,
       "month": 8,
       "journal": "Molecular Systems Biology",
-      "volume": null,
-      "issue": null,
-      "pages": null,
+      "volume": "22",
+      "issue": "11",
+      "pages": "1789-1808",
       "doi": "10.1038/s44320-026-00236-3",
       "type": "journal-article",
       "preprint": false
